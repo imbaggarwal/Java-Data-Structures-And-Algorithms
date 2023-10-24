@@ -1,7 +1,7 @@
 package Arrays;
 
 public class SortedAndRotated {
-    static boolean checkRotatedAndSorted(int arr[], int n){
+    static boolean checkRotatedAndSorted(int[] arr, int n){
 
         // Your code here
         int rightCount = 0;

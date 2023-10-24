@@ -1,7 +1,7 @@
 package Arrays;
 
 //We are given an array of positive and negative integers.
-// We have to find the contiguous subarray
+// We have to find the contiguous sub-array
 // having maximum sum.
 public class LargestSumSubarray {
     static int largestSum(int[] arr, int n){
