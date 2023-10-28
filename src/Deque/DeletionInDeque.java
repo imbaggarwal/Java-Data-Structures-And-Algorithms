@@ -17,7 +17,7 @@ public class DeletionInDeque{
         }
     }
 
-    public static void eraseInRange(ArrayDeque<Integer> deq , int start, int end){
+    static void eraseInRange(ArrayDeque<Integer> deq , int start, int end){
         int n = deq.size();
 
         for(int i=0; i<n; i++){
@@ -30,7 +30,7 @@ public class DeletionInDeque{
         }
     }
 
-    public static void eraseAll(ArrayDeque<Integer> deq){
+    static void eraseAll(ArrayDeque<Integer> deq){
         deq.clear();
     }
 
@@ -43,8 +43,12 @@ public class DeletionInDeque{
         deque.addLast(4);
         deque.addLast(5);
 
-        eraseAt(deque, 1);
-        eraseInRange(deque, 0, 1);
+        int start = 0;
+        int end = 1;
+        int x = 1;
+
+        eraseAt(deque, x);
+        eraseInRange(deque, start, end);
         eraseAll(deque);
 
         System.out.println(deque);
