@@ -38,7 +38,9 @@ public class NodesAtKDistanceFromLeaves {
         ArrayList<Node> list = new ArrayList<>();
 
         preOrder(root, list, k);
-        return set.size();
+        int size = set.size();
+        set.clear();
+        return size;
     }
 
     public static void main(String[] args) {
