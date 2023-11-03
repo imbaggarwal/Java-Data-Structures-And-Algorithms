@@ -2,6 +2,9 @@ package Trees;
 
 import java.util.ArrayList;
 
+//Question: https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+
+//Solution:
 public class LeftViewOfTree {
     static class Node{
         int data;
